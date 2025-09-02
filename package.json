@@ -1,0 +1,29 @@
+{
+  "name": "pw_dl_img",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "postinstall": "npx playwright install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "checkfix": "npx biome check --write --unsafe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tro3373/pw_dl_img.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tro3373/pw_dl_img/issues"
+  },
+  "homepage": "https://github.com/tro3373/pw_dl_img#readme",
+  "description": "",
+  "dependencies": {
+    "playwright": "^1.55.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.2"
+  }
+}
