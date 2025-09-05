@@ -23,3 +23,14 @@ test:
 	@node index.js $(test_url) "output/test_image.jpg"
 	@test -s output/test_image.jpg
 	@echo "==> ✓ test passed"
+
+test-x:
+	@npx --yes github:tro3373/pw_dl_img $(test_url) "output/test_image.jpg"
+	@test -s output/test_image.jpg
+	@echo "==> ✓ test passed"
+
+install-g:
+	# @echo "==> Installing playwright.."
+	# @npm install -g playwright
+	@echo "==> Installing pw_dl_img.."
+	@npm install -g github:tro3373/pw_dl_img
