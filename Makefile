@@ -30,7 +30,7 @@ test-x:
 	@echo "==> ✓ test passed"
 
 install-g:
-	# @echo "==> Installing playwright.."
-	# @npm install -g playwright
+	@echo "==> Installing playwright.."
+	@npm install -g playwright
 	@echo "==> Installing pw_dl_img.."
 	@npm install -g github:tro3373/pw_dl_img
