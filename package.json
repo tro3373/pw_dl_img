@@ -4,7 +4,6 @@
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
-    "postinstall": "/usr/bin/env bash -c 'npm i -g playwright && playwright install'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "checkfix": "npx biome check --write --unsafe"
   },
